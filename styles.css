@@ -1,0 +1,22 @@
+.todo-grid, .todo-input{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 20px;
+}
+
+.todo-grid {
+    margin-top: 10px;
+    row-gap: 10px;
+}
+
+.add-button {
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+.delete-button {
+    background-color: darkred;
+    color: white;
+    border: none;
+}
